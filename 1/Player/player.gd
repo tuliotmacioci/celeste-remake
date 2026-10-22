@@ -1,4 +1,3 @@
-
 extends CharacterBody2D
 
 const GRAVITY = 500.0

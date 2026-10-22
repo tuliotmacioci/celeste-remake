@@ -19,6 +19,7 @@
 [ext_resource type="PackedScene" path="res://2/Player/player.tscn" id="17_tscts"]
 [ext_resource type="TileSet" uid="uid://byomo4mdsk81f" path="res://2/Level/forsaken_city_fg_tileset.tres" id="19_3ujjo"]
 [ext_resource type="Texture2D" uid="uid://cc5itk8ird2th" path="res://2/Level/snow_f.png" id="20_a10m7"]
+[ext_resource type="Script" uid="uid://qfytwb1nmqki" path="res://2/Objects/death_zone.gd" id="20_utl8q"]
 [ext_resource type="Texture2D" uid="uid://clqk7gcou4aqa" path="res://2/Level/snow_a.png" id="21_jyoax"]
 [ext_resource type="Texture2D" uid="uid://c4uhyucykudrk" path="res://2/Level/snow_c.png" id="22_8r1tt"]
 [ext_resource type="Script" uid="uid://bu5cmbsrrxvig" path="res://2/Effects/snow_fg.gd" id="23_tatg0"]
@@ -171,6 +172,7 @@ position = Vector2(120, 66)
 
 [node name="DeathZone" parent="Objects" unique_id=1477665794 instance=ExtResource("93_dz")]
 position = Vector2(160, 200)
+script = ExtResource("20_utl8q")
 
 [node name="WingedStrawberry" parent="Objects" unique_id=169439588 instance=ExtResource("94_wstb")]
 position = Vector2(48, 96)
