@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dchubcbltwd1j" path="res://1/Level/forest_3.png" id="3_ovgp5"]
 [ext_resource type="PackedScene" uid="uid://dcd7vk2ufgxoe" path="res://1/Player/player.tscn" id="4_dwchh"]
 [ext_resource type="TileSet" uid="uid://cknnv8w83h1jd" path="res://1/Level/forsaken_city_fg_tileset.tres" id="5_8fjlj"]
+[ext_resource type="Script" uid="uid://d08llj3qqskmn" path="res://1/Player/player.gd" id="5_aw8mf"]
 
 [node name="Sala" type="Node2D" unique_id=2031360569]
 
@@ -52,7 +53,8 @@ centered = false
 [node name="Objects" type="Node2D" parent="." unique_id=1469064688]
 
 [node name="Player" parent="." unique_id=172142615 instance=ExtResource("4_dwchh")]
-position = Vector2(40, 160)
+position = Vector2(38, 123)
+script = ExtResource("5_aw8mf")
 
 [node name="Tiles" type="TileMapLayer" parent="." unique_id=849893313]
 z_index = 2
