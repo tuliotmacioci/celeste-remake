@@ -19,5 +19,4 @@ sprite = NodePath("../AnimatedSprite2D")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=332082360]
 position = Vector2(0, -16)
 sprite_frames = ExtResource("2")
-animation = &"idle"
-autoplay = "idle"
+animation = &"run"

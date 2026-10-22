@@ -53,7 +53,7 @@ centered = false
 [node name="Objects" type="Node2D" parent="." unique_id=1469064688]
 
 [node name="Player" parent="." unique_id=172142615 instance=ExtResource("4_dwchh")]
-position = Vector2(38, 123)
+position = Vector2(55, 129)
 script = ExtResource("5_aw8mf")
 
 [node name="Tiles" type="TileMapLayer" parent="." unique_id=849893313]
