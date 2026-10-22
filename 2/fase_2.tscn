@@ -17,6 +17,7 @@
 [ext_resource type="Script" uid="uid://buqykmbqd3fg4" path="res://2/Objects/crumble_platform.gd" id="15_tvttx"]
 [ext_resource type="Script" uid="uid://dxfqhfm0gailj" path="res://2/Objects/jump_thru.gd" id="16_cgtug"]
 [ext_resource type="PackedScene" path="res://2/Player/player.tscn" id="17_tscts"]
+[ext_resource type="Script" uid="uid://bdi81p2hs012g" path="res://2/Objects/spikes.gd" id="18_l2jhn"]
 [ext_resource type="TileSet" uid="uid://byomo4mdsk81f" path="res://2/Level/forsaken_city_fg_tileset.tres" id="19_3ujjo"]
 [ext_resource type="Texture2D" uid="uid://cc5itk8ird2th" path="res://2/Level/snow_f.png" id="20_a10m7"]
 [ext_resource type="Script" uid="uid://qfytwb1nmqki" path="res://2/Objects/death_zone.gd" id="20_utl8q"]
@@ -166,6 +167,7 @@ script = ExtResource("16_cgtug")
 
 [node name="Spikes" parent="Objects" unique_id=1330616902 instance=ExtResource("91_spk")]
 position = Vector2(176, 168)
+script = ExtResource("18_l2jhn")
 
 [node name="Strawberry" parent="Objects" unique_id=506739552 instance=ExtResource("92_stb")]
 position = Vector2(120, 66)
